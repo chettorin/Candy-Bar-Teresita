@@ -20,13 +20,16 @@ h1 {
 img {
     border-radius: 15px;
     margin: 15px 0;
+    width: 100%;
+    height: auto;
 }
 
 .btn {
     display: block;
     margin: 10px auto;
     padding: 15px;
-    width: 220px;
+    width: 100%;
+    max-width: 300px;
     background-color: #ff4081;
     color: white;
     text-decoration: none;
@@ -81,4 +84,10 @@ img {
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
