@@ -1,20 +1,33 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #fff5f5;
     margin: 0;
     padding: 20px;
+   background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("Imagenes/83870974_1056013131401967_7318003563710382080_n-convertido-de-jpg\ \(1\).png");
+
+    background-size: cover;
+    background-position: center;
     
 }
 
+h2{
+
+    color: white;
+
+}
+
 h1 {
-    color: #ff4081;
+    color: #12c08c;
+    
 }
 
 .descuento {
     font-size: 18px;
     font-weight: bold;
-    color: #e91e63;
+    color: #12c08c;
 }
 
 img {
@@ -38,7 +51,7 @@ img {
 }
 
 .btn:hover {
-    background-color: #e91e63;
+    background-color: #12c08c;
 
     
 }
